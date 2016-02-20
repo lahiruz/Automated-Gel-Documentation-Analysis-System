@@ -3,5 +3,5 @@
 Use the files inside the Other needed resouces folder to do following tasks.
 
 Other needed resources folder -> 
-                              *sql file to connect the database 
-                              *Other JAR folder to generate reports
+                              1. sql file to connect the database 
+                              2. Other JAR folder to generate reports
