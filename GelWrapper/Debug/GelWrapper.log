@@ -1,0 +1,39 @@
+﻿Build started 2/20/2016 4:34:15 PM.
+     1>Project "C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelWrapper\GelWrapper.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelDocSystem" /IC:\opencv\build\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\GelWrapper.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelDocSystem" /IC:\opencv\build\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GelWrapper.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp Converter.cpp GelWrapper.cpp
+         AssemblyInfo.cpp
+         Converter.cpp
+         GelWrapper.cpp
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\DNABandPositionExtraction.h(61): warning C4251: 'DNABandPositionExtraction::calculatedLadderBandPositions' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'DNABandPositionExtraction'
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\DNABandPositionExtraction.h(64): warning C4251: 'DNABandPositionExtraction::rowValuesBeforeChange' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'DNABandPositionExtraction'
+                 with
+                 [
+                     _Ty=long
+                 ]
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelDocSystem" /IC:\opencv\build\include /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Lahiru\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelWrapper.dll" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_highgui2410d.lib opencv_nonfree2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_videostab2410d.lib GelDocSystem.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelWrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Converter.obj
+         Debug\GelWrapper.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+            Creating library C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelWrapper.lib and object C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelWrapper.exp
+     1>opencv_ts2410d.lib(opencv_ts_pch.obj) : warning LNK4099: PDB 'opencv_ts2410d.pdb' was not found with 'opencv_ts2410d.lib(opencv_ts_pch.obj)' or at 'C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\opencv_ts2410d.pdb'; linking object as if no debug info
+         GelWrapper.vcxproj -> C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelWrapper.dll
+     1>Done Building Project "C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelWrapper\GelWrapper.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.43

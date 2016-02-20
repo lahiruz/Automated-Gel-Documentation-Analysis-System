@@ -1,0 +1,79 @@
+﻿Build started 2/20/2016 4:34:04 PM.
+     1>Project "C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelDocSystem\GelDocSystem.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BPValueGeneration.cpp ColumnObject.cpp DNABandPositionExtraction.cpp GelUtils.cpp ImageSegmentation.cpp SegmentedImagePart.cpp
+         SegmentedImagePart.cpp
+         ImageSegmentation.cpp
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.h(61): warning C4251: 'DNABandPositionExtraction::calculatedLadderBandPositions' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'DNABandPositionExtraction'
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.h(64): warning C4251: 'DNABandPositionExtraction::rowValuesBeforeChange' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'DNABandPositionExtraction'
+                 with
+                 [
+                     _Ty=long
+                 ]
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(62): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(172): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(222): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\imagesegmentation.cpp(501): warning C4018: '<' : signed/unsigned mismatch
+         GelUtils.cpp
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\gelutils.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\gelutils.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\gelutils.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\gelutils.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+         DNABandPositionExtraction.cpp
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.h(61): warning C4251: 'DNABandPositionExtraction::calculatedLadderBandPositions' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'DNABandPositionExtraction'
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.h(64): warning C4251: 'DNABandPositionExtraction::rowValuesBeforeChange' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'DNABandPositionExtraction'
+                 with
+                 [
+                     _Ty=long
+                 ]
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(40): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(41): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(252): warning C4101: 'secondTopIntensityBandPosition' : unreferenced local variable
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(252): warning C4101: 'thirdTopIntensityBandPosition' : unreferenced local variable
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(364): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(365): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(381): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(392): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(431): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(482): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(508): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(554): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\dnabandpositionextraction.cpp(637): warning C4018: '<' : signed/unsigned mismatch
+         ColumnObject.cpp
+         BPValueGeneration.cpp
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\bpvaluegeneration.cpp(83): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\bpvaluegeneration.cpp(147): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lahiru\documents\visual studio 2012\projects\geldocsystem\geldocsystem\bpvaluegeneration.cpp(162): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelDocSystem.dll" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_highgui2410d.lib opencv_nonfree2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelDocSystem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelDocSystem.lib" /MACHINE:X86 /DLL Debug\BPValueGeneration.obj
+         Debug\ColumnObject.obj
+         Debug\DNABandPositionExtraction.obj
+         Debug\GelUtils.obj
+         Debug\ImageSegmentation.obj
+         Debug\SegmentedImagePart.obj
+            Creating library C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelDocSystem.lib and object C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelDocSystem.exp
+         GelDocSystem.vcxproj -> C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\Debug\GelDocSystem.dll
+     1>Done Building Project "C:\Users\Lahiru\Documents\Visual Studio 2012\Projects\GelDocSystem\GelDocSystem\GelDocSystem.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.41

@@ -1,0 +1,13 @@
+100 BP LADDER : Ladder DNA Bands Data
+ 
+Top Two Bands Positions 
+ 
+Top Bands Positions with Intensities
+265 : 9837
+341 : 10790
+
+Band Positions Between Second and Third Top Intensities
+{ 276, 8177}
+{ 289, 8319}
+{ 303, 8370}
+{ 320, 8470}

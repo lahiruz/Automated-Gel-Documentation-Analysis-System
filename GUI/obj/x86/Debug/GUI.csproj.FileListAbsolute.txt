@@ -1,0 +1,11 @@
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\bin\x86\Debug\GUI.exe.config
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\bin\x86\Debug\GUI.exe
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\bin\x86\Debug\GUI.pdb
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\bin\x86\Debug\GelWrapper.dll
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\bin\x86\Debug\GelWrapper.pdb
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\obj\x86\Debug\GUI.Form1.resources
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\obj\x86\Debug\GUI.exe
+C:\Users\lahiruz\Documents\Visual Studio 2012\Projects\GelDocSystem\GUI\obj\x86\Debug\GUI.pdb
