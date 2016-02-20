@@ -1,3 +1,7 @@
 # Automated-Gel-Documentation-Analysis-System
 
-Use other needed resources folder to get sql file to connect the database and use other JAR folder to generate reports
+Use the files inside the Other needed resouces folder to do following tasks.
+
+Other needed resources folder -> 
+                              *sql file to connect the database 
+                              *Other JAR folder to generate reports
